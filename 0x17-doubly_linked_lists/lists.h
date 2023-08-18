@@ -1,22 +1,17 @@
-#ifndef LISTS_H
-#define LISTS_H
-
-/*
- * File: lists.h
- * Auth: Hillary Haggai
- */
+#ifndef _LISTS_
+#define _LISTS_
 
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * struct dlistint_s - doubly linked list
- * @n: intgr
- * @prev: points to the prev nod
- * @next: points to next node
+ * struct dlistint_s - doubly linkd list
+ * @n: integr
+ * @prev: points to prev nod
+ * @next: points to next nod
  *
- * Description: doubly linked list node struct
- * for Pyproject
+ * Description: doubly linkd list nod structre
+ * for Alx double linked list project
  */
 typedef struct dlistint_s
 {
@@ -35,4 +30,4 @@ int sum_dlistint(dlistint_t *head);
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 
-#endif /* LISTS_H */
+#endif
