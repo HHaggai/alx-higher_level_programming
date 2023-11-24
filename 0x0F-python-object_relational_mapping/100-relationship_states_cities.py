@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Creates State "California" with City "San Francisco" frm a DB
+Creats State "California" with City "San Francisco" frm a DB
 """
 import sys
 from relationship_state import Base, State
